@@ -125,7 +125,7 @@ provider "kubernetes" {
 
 
 module "controller-nginx-ingress" {
-    source = "github.com/vfabi/terrafrom-module-kubernetes-nginx-ingress-controller?ref=1.0"
+    source = "github.com/vfabi/terrafrom-module-kubernetes-nginx-ingress-controller?ref=1.1"
 
     # Provider explicit definition (optional).
     #providers = {
